@@ -1,0 +1,22 @@
+{
+  "name": "marcin/beciazad",
+  "authors": [
+    {
+      "name": "Marcin Czech",
+      "email": "czechmarcin@hotmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  }
+}
